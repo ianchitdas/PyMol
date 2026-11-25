@@ -120,7 +120,7 @@ function drawMap(feats){
     r.addEventListener('mousemove',e=>tip(e,`${f.type}: ${lab} (${a}–${b})`));r.addEventListener('mouseleave',untip);
     if(X(b)-X(a)>50)el('text',{x:(X(a)+X(b))/2,y:y+14,'text-anchor':'middle','font-size':10,fill:'#fff','pointer-events':'none'},svg,lab.slice(0,Math.floor((X(b)-X(a))/6)));
   });
-  // phospho / modified residues as lollipops
+  // modified residues as lollipops
   feats.filter(f=>f.type==='Modified residue'&&/phospho/i.test(f.description||'')).forEach(f=>{
     const p=f.location.start.value,x=X(p);
     const c=el('circle',{cx:x,cy:84,r:4.5,fill:'#d6453d'},svg);
