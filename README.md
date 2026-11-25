@@ -7,10 +7,10 @@ By default, it loads human **CREB1** (UniProt: `P16220`, PDB: `1DH3`), but you c
 ## Preview
 
 ### Domain Map & Color-Coded Sequence
-![Domain Map and Sequence Viewer](./assets/overview.png)
+![Domain Map and Sequence Viewer](./assets/img1.png)
 
 ### Composition, Hydrophobicity & Interactive 3D Structure
-![Amino Acid Composition, Hydrophobicity Plot, and 3D Structure Viewer](./assets/analytics-3d.png)
+![Amino Acid Composition, Hydrophobicity Plot, and 3D Structure Viewer](./assets/img2.png)
 
 ## Features
 
